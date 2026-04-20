@@ -36,11 +36,13 @@
         <div class="row">
           <div class="col-6">
 
-        <input type="reset" id="reset" name="reset" value="Clear all" class="form-control rounded text-center">
+        <input type="reset" id="reset" name="reset" value="Clear all" class="form-control rounded">
         </div>
 
-                <div class="col-6">
-                <a nav-link href=Notebooks.html class="form-control rounded" style="width: 100%; height: auto;">Log In</a>
+             <div class="col-6">
+        <button type="button" onclick="login()" class="form-control rounded">
+         Log In
+        </button>
             </div>
 
         </form>
@@ -60,7 +62,7 @@
             }
 
             if(email === "UrbanoisGOAT@gmail.com" && password === "GOAT1234"){
-                window.location.href = "Notebooks.htmll";
+                window.location.href = "Notebooks.html";
             } else {
                 alert("Invalid email or password.");
             }
